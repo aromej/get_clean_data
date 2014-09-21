@@ -8,32 +8,33 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 The idea behind my selection of features is because the assignment explicitly mentioned  "Extracts only the measurements on the mean and standard deviation for each measurement." To be complete, I included all variables having to do with mean or standard deviation.
 In short, for this derived dataset, these signals were used to estimate variables of the feature vector for each pattern:
 used  '-XYZ'  to denote 3-axial signals in the X, Y and Z directions.
-Îù	tBodyAcc-XYZ
-Îù	tGravityAcc-XYZ
-Îù	tBodyAccJerk-XYZ
-Îù	tBodyGyro-XYZ
-Îù	tBodyGyroJerk-XYZ
-Îù	tBodyAccMag
-Îù	tGravityAccMag
-Îù	tBodyAccJerkMag
-Îù	tBodyGyroMag
-Îù	tBodyGyroJerkMag
-Îù	fBodyAcc-XYZ
-Îù	fBodyAccJerk-XYZ
-Îù	fBodyGyro-XYZ
-Îù	fBodyAccMag
-Îù	fBodyAccJerkMag
-Îù	fBodyGyroMag
-Îù	fBodyGyroJerkMag
+â€¢	tBodyAcc-XYZ
+â€¢	tGravityAcc-XYZ
+â€¢	tBodyAccJerk-XYZ
+â€¢	tBodyGyro-XYZ
+â€¢	tBodyGyroJerk-XYZ
+â€¢	tBodyAccMag
+â€¢	tGravityAccMag
+â€¢	tBodyAccJerkMag
+â€¢	tBodyGyroMag
+â€¢	tBodyGyroJerkMag
+â€¢	fBodyAcc-XYZ
+â€¢	fBodyAccJerk-XYZ
+â€¢	fBodyGyro-XYZ
+â€¢	fBodyAccMag
+â€¢	fBodyAccJerkMag
+â€¢	fBodyGyroMag
+â€¢	fBodyGyroJerkMag
 The set of variables that were estimated (and kept for this assignment) from these signals are:
-Îù	mean(): Mean value
-Îù	std(): Standard deviation
+â€¢	mean(): Mean value
+â€¢	std(): Standard deviation
 Other vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
-Îù	gravityMean
-Îù	tBodyAccMean
-Îù	tBodyAccJerkMean
-Îù	tBodyGyroMean
-Îù	tBodyGyroJerkMean
+â€¢	gravityMean
+â€¢	tBodyAccMean
+â€¢	tBodyAccJerkMean
+â€¢	tBodyGyroMean
+â€¢	tBodyGyroJerkMean
 Note: features are normalized and bounded within [-1,1].
 The resulting variable names are of the following form: tbodyaccmeanx, which means the mean value of tBodyAcc-XYZ.
+
 
